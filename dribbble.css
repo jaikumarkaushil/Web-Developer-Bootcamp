@@ -1,0 +1,96 @@
+body{
+			font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-variant-ligatures: normal;
+			font-kerning: normal;
+		}
+		.jumbotron {
+			background: #d4d8db;
+		}
+		.color1 {
+			background: #DF3E7B;
+			border: #DF3E7B;
+			text-align: left;
+			margin: -5px 25px;
+			padding: 10px 15px 11px 15px;
+		}
+		.color2 {
+
+			background: #DF3E7B;
+			border: #DF3E7B;
+			margin-right: 25px;	
+			padding: 2px;
+			position: absolute;
+			top: 8px;
+		}
+
+		.container {
+			padding: 10px 32px 10px 32px;
+			margin: 0 auto;
+			text-align: left;
+		}
+		.title {
+			max-width: 120rem;
+			width: 100%;
+			padding: 0 2rem;
+			text-align: left;
+			font-size: 5rem; 
+			font-weight: bolder;
+			color: #173460;
+			line-height: 1;
+		}
+		.subtitle {
+			max-width: 70rem;
+			width: 100%;
+			padding: 2vh 2rem;
+			text-align: left; 
+			color: #C36535;
+		}
+		.head {	
+			width: 453.9px
+		}
+		.container {
+			display: flex;
+
+		}
+		.top-space {
+			margin-top: 100px;
+			margin-bottom: -45px;
+		}
+		.float {
+			font-size: 1.5rem;
+			border-width: 0;
+			padding: 2.5px 20px 2.5px 20px;
+			}
+		#logo-size {
+			width: 76px;
+			filter: invert(100%);
+		}
+		.bar {
+			margin-left: 15px;
+			font-weight: bold;
+			font-size: 1.7rem;
+			font-family: arial bold;
+			color: red;
+		}
+		#side {
+			padding-bottom: 5px;
+			padding-top: 5px;
+			color: white;
+			font-weight: bold;
+			font-size: 1.7rem;
+		}
+		.white {
+			position: absolute;
+			top: 10px;
+			color: gray;
+		}
+		.float-pics {
+		max-width: 1290px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		.image {
+ 			max-width: 410px;
+ 			width: 100%;
+ 			margin: 15px;
+		}

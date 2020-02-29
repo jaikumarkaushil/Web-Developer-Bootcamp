@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dribbble</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-variant-ligatures: normal;
+			font-kerning: normal;
+		}
+		.jumbotron {
+			background: #d4d8db;
+		}
+		.color1 {
+			background: #DF3E7B;
+			border: #DF3E7B;
+			text-align: left;
+			margin: -5px 25px;
+			padding: 10px 15px 11px 15px;
+		}
+		.color2 {
+
+			background: #DF3E7B;
+			border: #DF3E7B;
+			margin-right: 25px;	
+			padding: 2px;
+			position: absolute;
+			top: 8px;
+		}
+
+		.flex {
+			width: 72.8%;
+			padding: 10px 32px 10px 32px;
+			margin: 0 auto;
+			text-align: left;
+			display: flex;
+		}
+		.title {
+			max-width: 120rem;
+			width: 100%;
+			padding: 0 2rem;
+			text-align: left;
+			font-size: 4.5rem; 
+			font-weight: bolder;
+			color: #173460;
+			line-height: 1;
+		}
+		.subtitle {
+			max-width: 70rem;
+			width: 100%;
+			padding: 2vh 2rem;
+			text-align: left; 
+			color: #C36535;
+		}
+		.head {	
+			width: 453.9px;
+		}
+		.top-space {
+			margin-top: 100px;
+			margin-bottom: -45px;
+		}
+		.float {
+			font-size: 1.5rem;
+			border-width: 0;
+			padding: 2.5px 20px 2.5px 20px;
+			}
+		#logo-size {
+			width: 76px;
+			filter: invert(100%);
+		}
+		.bar {
+			margin-left: 15px;
+			font-weight: bold;
+			font-size: 1.7rem;
+			font-family: arial bold;
+			color: red;
+		}
+		#side {
+			padding-bottom: 5px;
+			padding-top: 5px;
+			color: white;
+			font-weight: bold;
+			font-size: 1.7rem;
+		}
+		.white {
+			position: absolute;
+			top: 10px;
+			color: gray;
+		}
+		.float-pics {
+			width: 92.5%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.btn-primary:hover {
+			background-color: #db246a;
+		}
+	/*	.image {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}*/
+
+	</style>
+</head>
+<body>
+
+
+	<nav class="navbar navbar-inverse navbar-fixed-top float">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      	</button>
+			<a href="https://dribbble.com/" class="navbar-brand"><img id="logo-size" src="https://cdn.dribbble.com/assets/logo-bw-0200c7483844c355752e89efaa4ba89b83c9c591d70254ba10f4b25d901359d0.gif"></a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav bar">
+			
+				 <li class="dropdown">
+          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore<span class="caret"></span></a>
+		          	<ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		            </ul>
+       			</li>
+				<li><a href="#" >For Designers <span class="caret"></span></a></li>
+				<li class="white">|</li>
+				<li> <a href="#">Hiring Designers?</a></li>	
+			</ul>
+			<ul class="nav navbar-nav navbar-right bar">
+				<li><a href="#">Sign In</a></li>
+				<li class="btn btn-primary color2"><a  id="side" href="#">Sign Up</a></li>
+			</ul>
+			
+		</div>
+		
+	</nav>
+
+
+	<div class="jumbotron">
+		<div>
+			<div class="container flex">
+				<div>
+					<h2 class="title">Discover the world's top
+					designers & creatives</h2>
+					<h4 class="subtitle">Dribble is the leading destination to find & showcase creative
+					work and home to the world's best design professionals.</h4>
+					<button class="btn btn-primary color1">Sign Up</button>	
+					<h4 class="subtitle top-space"><span class="glyphicon glyphicon-camera" ></span> Art by <a href="https://dribbble.com/alicjacolon">Alicja Colon/Thrice Studio</a> in Savannah, Georgia</h4>	
+				</div>	
+				<div>
+					<img class="head" src="https://cdn.dribbble.com/assets/signup-banners/paper-camera-503a3c3694e59748eca4b4da479b2caad8ff77f6f100c49b24753b689072f6e6.jpg">
+				</div>
+			</div>
+		</div>
+	</div>  
+	<div class="float-pics">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 image">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1577515696584-6accf80259c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"></div>
+	 		</div>
+			<div class="col-lg-4 col-md-6 image">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1577455059412-ff2bd8228b75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"></div>
+			</div>
+			<div class="col-lg-4 col-md-6 image">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1577496549804-8b05f1f67338?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 image">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1571667479875-4fb6cce1bc24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"></div>
+			</div>
+			<div class="col-lg-4 col-md-6 image">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1574616054483-24b4a33a3bea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80"></div>
+			</div>
+			<div class="col-lg-4 col-md-6 image">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1577496550006-f24a50e9d50c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 image">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1577140696412-21a74105511d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"></div>
+			</div>
+			<div class="col-lg-4 col-md-6 image">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1523553374578-aba5fa21a345?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80"></div>
+			</div>
+			<div class="col-lg-4 col-md-6 image">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"></div>
+			</div>
+		</div>
+	</div>
+<script src="https://kit.fontawesome.com/db046ecd3c.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
